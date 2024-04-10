@@ -1,0 +1,48 @@
+<mxfile host="Electron" modified="2024-04-10T13:54:27.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="pXClTrK50-2rXMIiiG0G" version="24.0.4" type="device">
+  <diagram name="Pagina-1" id="_nHy6eVKQXL7t-TL2jVu">
+    <mxGraphModel dx="704" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-57" value="Persona" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="w0Bo0_-ca2lVXF6_ybQU-58" target="w0Bo0_-ca2lVXF6_ybQU-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-58" value="&lt;div&gt;- codice : String&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- nominativo : String&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-59" value="&lt;div&gt;+ getCodice() : String&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-60" value="Oggetto" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-61" value="&lt;div&gt;- codice : String&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- nome: String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-descrizione : String&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- possessore : Persona&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-62" value="&lt;div&gt;+ getNome() : String&lt;/div&gt;&lt;div&gt;+ setNome() : void&lt;br&gt;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-63" value="Proposta" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="630" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="w0Bo0_-ca2lVXF6_ybQU-64" target="w0Bo0_-ca2lVXF6_ybQU-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="w0Bo0_-ca2lVXF6_ybQU-64" target="w0Bo0_-ca2lVXF6_ybQU-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-64" value="&lt;div&gt;- codice : String&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- data : DateTime&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-oggetti : Oggetto[]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-persone : Persona[2]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-isAccettato : bool&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-codiceTransazione : String&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="660" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w0Bo0_-ca2lVXF6_ybQU-65" value="&lt;div&gt;+ getCodice() : Oggetto[]&lt;/div&gt;&lt;div&gt;+setOggetti() : void&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="760" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
